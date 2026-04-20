@@ -1,0 +1,29 @@
+# Create a new user
+sudo adduser testuser
+
+# Create a new group
+sudo groupadd developers
+
+# Add user to the group
+sudo usermod -aG developers testuser
+
+# Verify user groups
+groups testuser
+
+# Create a sample project directory
+mkdir project_folder
+
+# Change ownership of folder to the new user
+sudo chown testuser:developers project_folder
+
+# Set folder permissions
+chmod 770 project_folder
+
+# Verify permissions
+ls -ld project_folder
+
+# Switch to the new user
+su - testuser
+
+# Exit from switched user
+exit
