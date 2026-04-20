@@ -24,3 +24,14 @@ A Linux lab project focused on user and group management, file ownership, and pe
 
 Kali Linux
 SHA256:GE8vr6C0lTgKbvRCnUsHB6tf8va2YGgXdI4nk3i3268
+
+---------------
+
+## How to Run
+
+1. Create user
+2. Add group
+3. Assign permissions
+
+## Author
+Alhanoof Alabdullah
