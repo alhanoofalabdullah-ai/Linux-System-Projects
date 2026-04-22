@@ -1,0 +1,26 @@
+## 📄 commands.txt
+
+```text
+# Update package list
+sudo apt update
+
+# Upgrade packages
+sudo apt upgrade
+
+# Install package
+sudo apt install curl
+
+# Remove package
+sudo apt remove curl
+
+# Search package
+apt search curl
+
+# Show package info
+apt show curl
+
+# Install deb package
+sudo dpkg -i package.deb
+
+# Remove deb package
+sudo dpkg -r package-name
