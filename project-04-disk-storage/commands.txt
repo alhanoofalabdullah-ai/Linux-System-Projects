@@ -1,0 +1,23 @@
+## commands.txt
+
+```text
+# Check disk space
+df -h
+
+# Check current directory size
+du -sh .
+
+# Check folder sizes
+du -h --max-depth=1
+
+# List block devices
+lsblk
+
+# Show mounted file systems
+mount
+
+# Show disk usage for home
+df -h /home
+
+# Check file system type
+lsblk -f
