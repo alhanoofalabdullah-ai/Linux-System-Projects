@@ -1,0 +1,26 @@
+## 📄 commands.txt
+
+```text
+# View log file
+cat /var/log/syslog
+
+# View logs with scrolling
+less /var/log/syslog
+
+# Search logs
+grep "error" /var/log/syslog
+
+# Case-insensitive search
+grep -i "error" /var/log/syslog
+
+# Count results
+grep -c "error" /var/log/syslog
+
+# Show line numbers
+grep -n "error" /var/log/syslog
+
+# Show last lines
+tail /var/log/syslog
+
+# Real-time monitoring
+tail -f /var/log/syslog
