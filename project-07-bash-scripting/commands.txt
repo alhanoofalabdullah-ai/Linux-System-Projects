@@ -1,0 +1,22 @@
+## 📄 commands.txt
+
+```text
+# Create script
+nano script.sh
+
+# Make executable
+chmod +x script.sh
+
+# Run script
+./script.sh
+
+script.sh
+
+#!/bin/bash
+
+echo "Starting automation..."
+
+mkdir -p backup_folder
+touch backup_folder/test.txt
+
+echo "Backup completed successfully"
