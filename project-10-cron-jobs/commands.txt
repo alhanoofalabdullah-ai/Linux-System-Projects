@@ -1,0 +1,20 @@
+## 📄 commands.txt
+
+```text
+# Open cron editor
+crontab -e
+
+# List cron jobs
+crontab -l
+
+# Remove cron jobs
+crontab -r
+
+# Example job (every minute)
+* * * * * /home/kali/Linux-System-Projects/project-10-cron-jobs/script.sh
+
+script.sh
+
+#!/bin/bash
+
+echo "Cron job executed at $(date)" >> log.txt
