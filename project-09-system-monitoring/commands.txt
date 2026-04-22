@@ -1,0 +1,26 @@
+## 📄 commands.txt
+
+```text
+# View running processes
+top
+
+# View processes with htop
+htop
+
+# Check system uptime
+uptime
+
+# Check memory usage
+free -h
+
+# Check disk usage
+df -h
+
+# Show CPU information
+lscpu
+
+# Show memory information
+cat /proc/meminfo
+
+# Monitor processes snapshot
+ps aux
