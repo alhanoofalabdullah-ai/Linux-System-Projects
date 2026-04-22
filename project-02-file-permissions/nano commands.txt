@@ -1,0 +1,21 @@
+# Create files and directories
+touch file1.txt
+mkdir secure_folder
+
+# View permissions
+ls -l
+ls -ld secure_folder
+
+# Change file permissions
+chmod 644 file1.txt
+
+# Change directory permissions
+chmod 770 secure_folder
+
+# Change ownership
+sudo chown testuser:developers file1.txt
+sudo chown testuser:developers secure_folder
+
+# Verify updated permissions
+ls -l
+ls -ld secure_folder
