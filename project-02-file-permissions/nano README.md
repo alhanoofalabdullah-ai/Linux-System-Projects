@@ -59,6 +59,16 @@ ls -l
 ls -ld secure_folder
 
 ---------------------------
+Skills Practiced
+
+- File management
+- Directory management
+- Linux permissions
+- Ownership control
+- Command line usage
+
+------------------------------
+
 Author
 
 Alhanoof Alabdullah
