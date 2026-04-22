@@ -1,0 +1,20 @@
+## 📄 commands.txt
+
+```text
+# Show IP address
+ip a
+
+# Show network interfaces
+ip link
+
+# Test connectivity
+ping google.com
+
+# Show routing table
+ip route
+
+# Check open ports
+ss -tuln
+
+# Check DNS
+nslookup google.com
