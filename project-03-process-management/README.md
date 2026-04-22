@@ -65,6 +65,16 @@ kill -9 1234
 
 -----------------
 
+Skills Practiced
+
+- Process monitoring
+- Background & foreground jobs
+- Process control
+- System resource awareness
+- Command line operations
+
+-------------------------
+
 Author
 
 Alhanoof Alabdullah
