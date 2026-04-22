@@ -1,0 +1,29 @@
+
+---
+
+## 📄 commands.txt
+
+```text
+# View running processes
+ps aux
+
+# Monitor system processes
+top
+
+# Search for a process
+ps aux | grep firefox
+
+# Run process in background
+sleep 100 &
+
+# View jobs
+jobs
+
+# Bring job to foreground
+fg
+
+# Kill process
+kill 1234
+
+# Force kill
+kill -9 1234
