@@ -1,0 +1,7 @@
+cd ~/Linux-System-Projects
+mkdir project-15-service-status-checker
+cd project-15-service-status-checker
+
+touch README.md service_check.sh commands.txt
+
+chmod +x service_check.sh
