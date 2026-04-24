@@ -1,0 +1,7 @@
+cd ~/Linux-System-Projects
+mkdir project-19-system-resource-report
+cd project-19-system-resource-report
+
+touch README.md resource_report.sh commands.txt
+
+chmod +x resource_report.sh
