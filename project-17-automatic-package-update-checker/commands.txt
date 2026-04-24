@@ -1,0 +1,7 @@
+cd ~/Linux-System-Projects
+mkdir project-17-automatic-package-update-checker
+cd project-17-automatic-package-update-checker
+
+touch README.md update_checker.sh commands.txt
+
+chmod +x update_checker.sh
