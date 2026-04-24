@@ -1,0 +1,7 @@
+cd ~/Linux-System-Projects
+mkdir project-20-secure-ssh-access-audit
+cd project-20-secure-ssh-access-audit
+
+touch README.md ssh_audit.sh commands.txt
+
+chmod +x ssh_audit.sh
