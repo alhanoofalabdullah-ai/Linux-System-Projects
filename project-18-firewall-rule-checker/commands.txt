@@ -1,0 +1,7 @@
+cd ~/Linux-System-Projects
+mkdir project-18-firewall-rule-checker
+cd project-18-firewall-rule-checker
+
+touch README.md firewall_check.sh commands.txt
+
+chmod +x firewall_check.sh
