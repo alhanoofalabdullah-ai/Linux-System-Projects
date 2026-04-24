@@ -1,0 +1,7 @@
+cd ~/Linux-System-Projects
+mkdir project-13-user-activity-audit-script
+cd project-13-user-activity-audit-script
+
+touch README.md audit_users.sh commands.txt
+
+chmod +x audit_users.sh
