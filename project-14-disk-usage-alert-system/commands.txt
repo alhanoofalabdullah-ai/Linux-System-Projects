@@ -1,0 +1,7 @@
+cd ~/Linux-System-Projects
+mkdir project-14-disk-usage-alert-system
+cd project-14-disk-usage-alert-system
+
+touch README.md disk_alert.sh commands.txt
+
+chmod +x disk_alert.sh
