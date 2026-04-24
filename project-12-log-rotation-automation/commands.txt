@@ -1,0 +1,8 @@
+cd ~/Linux-System-Projects
+mkdir project-12-log-rotation-automation
+cd project-12-log-rotation-automation
+
+mkdir logs archive
+touch README.md rotate_logs.sh commands.txt
+
+chmod +x rotate_logs.sh
