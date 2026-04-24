@@ -38,6 +38,25 @@ This project helps automate backup processes for important directories and files
 - gzip
 - File Management
 
+## Run Script
+
+./backup.sh
+
+## Cron Job Example
+
+crontab -e
+
+## Add this line for daily backup :
+
+0 2 * * * /home/your-user/Linux-System-Projects/project-11-server-backup-automation/backup.sh
+
+## Git Commands
+
+- cd ..
+- git add .
+- git commit -m "add project 11 server backup automation"
+- git push
+
 ---
 
 ## Author
