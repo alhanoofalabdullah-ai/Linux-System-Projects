@@ -1,0 +1,7 @@
+cd ~/Linux-System-Projects
+mkdir project-16-network-connectivity-tester
+cd project-16-network-connectivity-tester
+
+touch README.md network_test.sh commands.txt
+
+chmod +x network_test.sh
